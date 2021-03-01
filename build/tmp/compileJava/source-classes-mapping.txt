@@ -1,0 +1,4 @@
+com/jwhitewizard/quotely/domain/Quote.java
+ com.jwhitewizard.quotely.domain.Quote
+com/jwhitewizard/quotely/application/QuotelyApplication.java
+ com.jwhitewizard.quotely.application.QuotelyApplication

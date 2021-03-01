@@ -1,0 +1,2 @@
+com/jwhitewizard/quotely/QuotelyApplicationTests.java
+ com.jwhitewizard.quotely.QuotelyApplicationTests
