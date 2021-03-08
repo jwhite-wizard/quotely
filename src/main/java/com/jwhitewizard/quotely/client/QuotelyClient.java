@@ -8,7 +8,7 @@ import reactor.core.publisher.Mono;
 
 public class QuotelyClient {
     private WebClient client;
-    private String language = "en";
+    private String language;
     private Mono<Quote> result;
     private static final Logger log = LoggerFactory.getLogger(QuotelyClient.class);
 
