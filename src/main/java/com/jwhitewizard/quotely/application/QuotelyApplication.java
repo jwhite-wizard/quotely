@@ -32,31 +32,4 @@ public class QuotelyApplication {
         }
         System.exit(0);
     }
-
-//    @Bean
-//    public RestTemplate restTemplate(RestTemplateBuilder builder) {
-//        return builder.build();
-//    }
-//
-//    @Bean
-//    public CommandLineRunner run(RestTemplate restTemplate) throws Exception{
-//        return args -> {
-//            HttpHeaders headers = new HttpHeaders();
-//            HttpEntity<String> entity = new HttpEntity<String>(headers);
-//            headers.add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36");
-//            log.info("checking for language");
-////            If no argument is input or there's only one arg and it is english
-//            if (args.length == 0 || args.length == 1 && ("English".equalsIgnoreCase(args[0]))){
-//                log.info("English language accepted");
-//                ResponseEntity<String> quote = restTemplate.exchange("https://api.forismatic.com/api/1.0/?method=" +
-//                        "getQuote&format=json&lang=en", HttpMethod.GET, entity, String.class);
-//                System.out.println(quote);
-//            } else if (args.length == 1 && ("Russian".equalsIgnoreCase(args[0]))) {
-//                log.info("Russian language accepted");
-//                ResponseEntity<String> quote = restTemplate.exchange("https://api.forismatic.com/api/1.0/?method=" +
-//                        "getQuote&format=json&lang=ru", HttpMethod.GET, entity, String.class);
-//                System.out.println(quote);
-//            }
-//        };
-//    }
 }
